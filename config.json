@@ -1,0 +1,10 @@
+{
+    "gpu_mem_limit": 6600,
+    "dataset_path": "dataset/",
+    "output_path": "trained_net.h5",
+    "classes": ["unlabeled", "person", "vegetation", "grass", "tree"],
+    "resolution": [480, 320],
+    "force_cpu": false,
+    "batch_size": 10,
+    "epochs": 300
+}
