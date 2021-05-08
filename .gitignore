@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Project specifics
+unet-drone-env
+dataset
+docs
+test
+*.h5
+
+# IDE
+.vscode
