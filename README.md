@@ -13,7 +13,7 @@ You will need tensorflow 2 (tested with 2.4.1), matplotlib (tested with 3.4.1) i
 Firstly, you need to extract dataset file to dataset_path. Then:
 
 1. Install tensorflow, matplotlib an opencv
-2. Run main.py to train the network
+2. Run train.py to train the network
 3. Run inference.py passing the path of the image
 
 ## References
