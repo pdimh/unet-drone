@@ -28,7 +28,7 @@ gpu.configure(config.force_cpu, config.gpu_mem_limit)
 data = cv2.resize(data, config.resolution,
                   interpolation=cv2.INTER_LINEAR)
 
-model = unet.get_model(data.shape, n_classes=len(
+model = unet.get_model(data.shape, n_filters=config.n_filters, n_classes=len(
     config.classes))
 model.load_weights(config.output_path)
 

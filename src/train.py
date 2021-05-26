@@ -51,7 +51,7 @@ mask_pics = [cv2.resize(np.array(Image.open(os.path.join(MASK_PATH, file))), con
 
 mask_pics = [gen_mask(pic, class_label, config.classes) for pic in mask_pics]
 
-model = unet.get_model(pics[0].shape, n_classes=len(
+model = unet.get_model(pics[0].shape, n_filters=config.n_filters, n_classes=len(
     config.classes))
 model.fit(np.array(pics)/255,
           np.array(mask_pics),

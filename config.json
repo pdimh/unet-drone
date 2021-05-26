@@ -4,6 +4,7 @@
     "output_path": "trained_net.h5",
     "classes": ["unlabeled", "person", "vegetation", "grass", "tree"],
     "resolution": [480, 320],
+    "n_filters": 24,
     "force_cpu": false,
     "batch_size": 10,
     "epochs": 300
